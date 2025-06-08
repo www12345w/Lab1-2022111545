@@ -1,5 +1,5 @@
 digraph G {
-  rankdir=LR; // 从左到右布局
+  rankdir=LR;
   node [shape=circle];
   "the" -> "scientist" [label="2"];
   "the" -> "data" [label="1"];

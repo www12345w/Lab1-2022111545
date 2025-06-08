@@ -1,5 +1,5 @@
 digraph G {
-  rankdir=LR; // 从左到右布局
+  rankdir=LR;
   node [shape=circle];
   "the" -> "scientist" [label="2"];
   "the" -> "data" [label="1", color=red, penwidth=2.0, style=bold];
@@ -10,8 +10,8 @@ digraph G {
   "carefully" -> "analyzed" [label="1"];
   "analyzed" -> "the" [label="1"];
   "analyzed" -> "it" [label="1"];
-  "data" -> "wrote" [label="1"];
-  "data" -> "so" [label="1", color=red, penwidth=2.0, style=bold];
+  "data" -> "wrote" [label="1", color=red, penwidth=2.0, style=bold];
+  "data" -> "so" [label="1"];
   "wrote" -> "a" [label="1"];
   "a" -> "detailed" [label="1"];
   "detailed" -> "report" [label="1"];
@@ -28,5 +28,5 @@ digraph G {
   "so" -> "the" [label="1"];
   "it" -> "again" [label="1"];
   "the" [color=green, penwidth=2.0];
-  "so" [color=blue, penwidth=2.0];
+  "wrote" [color=blue, penwidth=2.0];
 }

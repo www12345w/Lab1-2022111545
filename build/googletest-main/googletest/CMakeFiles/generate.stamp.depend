@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+D:/cmake/share/cmake-4.0/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/cmake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+D:/cmake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+D:/cmake/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+D:/cmake/share/cmake-4.0/Modules/CheckLibraryExists.cmake
+D:/cmake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+D:/cmake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+D:/cmake/share/cmake-4.0/Modules/FindThreads.cmake
+D:/cmake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
+D:/cmake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
+D:/code/C/lab1/googletest-main/googletest/CMakeLists.txt
+D:/code/C/lab1/googletest-main/googletest/cmake/Config.cmake.in
+D:/code/C/lab1/googletest-main/googletest/cmake/gtest.pc.in
+D:/code/C/lab1/googletest-main/googletest/cmake/gtest_main.pc.in
+D:/code/C/lab1/googletest-main/googletest/cmake/internal_utils.cmake

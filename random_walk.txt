@@ -1,8 +1,5 @@
 Random walk traversal:
-Start at: scientist
-Step 1: scientist -> analyzed
-Step 2: analyzed -> it
-Step 3: it -> again
+Start at: C
 
-Stopped at node again (no outgoing edges).
-Random walk completed. Total steps: 3
+Stopped at node C (no outgoing edges).
+Random walk completed. Total steps: 0

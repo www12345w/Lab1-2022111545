@@ -901,15 +901,15 @@ void random_walk(pGraph graph) {
 
     while (!stop) {
         // 检查用户输入
-        if (kbhit()) {
-            char ch = getchar();
-            if (ch == 'q' || ch == 'Q') {
-                printf("\nUser requested stop.\n");
-                fprintf(walk_file, "\nUser requested stop after %d steps.\n", steps);
-                stop = true;
-                break;
-            }
-        }
+        // if (kbhit()) {
+        //     char ch = getchar();
+        //     if (ch == 'q' || ch == 'Q') {
+        //         printf("\nUser requested stop.\n");
+        //         fprintf(walk_file, "\nUser requested stop after %d steps.\n", steps);
+        //         stop = true;
+        //         break;
+        //     }
+        // }
 
         // 检查当前节点是否有出边
         has_out_edge = false;
@@ -1045,7 +1045,7 @@ int main() {
                     while (getchar() != '\n'); // 清除输入缓冲区
                     continue;
                 }
-                
+                // WordNode* current = word_list;
                 switch (choice) {
                     case 0:
                         printf("Exiting program.\n");
